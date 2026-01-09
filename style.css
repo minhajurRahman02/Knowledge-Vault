@@ -1,7 +1,7 @@
 body {
-    max-width: 90%;
+    max-width: 100%;
     margin: 0 auto;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
 }
 
 header {
@@ -9,6 +9,7 @@ header {
     background-color: aliceblue;
     justify-content: space-between;
     padding: 16px 120px 16px 120px;
+    align-items: center;
 }
 
 header nav ul {
@@ -48,4 +49,8 @@ header button {
 
 header button:hover {
     background-color: #248a4e;
+}
+.banner{
+    color: white;
+    background-image: url("assets/hero-bg.png");
 }
