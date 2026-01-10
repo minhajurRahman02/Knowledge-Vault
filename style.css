@@ -210,3 +210,37 @@ header button:hover {
 .check-mark {
     list-style-image: url("/assets/CheckCircle.png");
 }
+
+.ready-to-think-container{
+    margin: 30px;
+}
+
+.ready-to-think {
+    width: 70%;
+    background-color: rgb(226, 226, 226);
+    border-radius: 15px;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.early-access-btn {
+    color: white;
+    background-color: #2bad61;
+    border: none;
+    border-radius: 5px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 15px;
+    transition: 0.4s ease;
+}
+
+.early-access-btn:hover{
+    background-color: #2c9156;
+    scale: 1.1;
+}
