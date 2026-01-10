@@ -156,7 +156,7 @@ header button:hover {
     padding: 20px 30px 40px 30px;
 }
 
-.notes p{
+.notes p {
     padding-bottom: 40px;
 }
 
@@ -182,4 +182,31 @@ header button:hover {
     background-color: #f85455;
     padding: 15px;
     border-radius: 50%;
+}
+
+.second-brain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.knowledge-img {
+    /* border: 2px solid black; */
+    scale: 0.7;
+}
+
+.knowledge-content {
+    /* border: 2px solid black; */
+    height: fit-content;
+    width: 35%;
+    padding: 20px 30px 20px 30px;
+}
+
+.knowledge-content ul {
+    padding-top: 20px;
+    list-style: none;
+}
+
+.check-mark {
+    list-style-image: url("/assets/CheckCircle.png");
 }
