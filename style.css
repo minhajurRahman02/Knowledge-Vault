@@ -61,7 +61,7 @@ header button:hover {
     color: white;
     background-image: url("assets/hero-bg.png");
     background-size: cover;
-    width: 100%;
+    /* width: 100%; */
     align-items: center;
     text-align: center;
     justify-content: center;
@@ -70,7 +70,6 @@ header button:hover {
 .banner-content {
     padding: 100px 100px;
     padding-bottom: 120px;
-    /* border: 2px solid black; */
     width: 50%;
     align-items: center;
     font-size: larger;
@@ -81,21 +80,25 @@ header button:hover {
     font-size: 60px;
 }
 
-.banner-content p {
+/* .banner-content p {
+    font-size: medium;
+} */
+
+.banner-description {
     font-size: medium;
 }
 
 .early-access {
     /* display: flex;
     justify-content: center;
-    gap: 10px;
-    align-items: center; */
+    gap: 10px; */
     color: #248a4e;
     font-size: 12px;
     background-color: white;
     width: fit-content;
     margin: 0 auto;
     border-radius: 50px;
+    padding: 5px 15px;
 }
 
 /* .early-access p{
