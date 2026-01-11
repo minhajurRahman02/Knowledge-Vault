@@ -211,7 +211,7 @@ header button:hover {
     list-style-image: url("/assets/CheckCircle.png");
 }
 
-.ready-to-think-container{
+.ready-to-think-container {
     margin: 30px;
 }
 
@@ -240,7 +240,65 @@ header button:hover {
     transition: 0.4s ease;
 }
 
-.early-access-btn:hover{
+.early-access-btn:hover {
     background-color: #2c9156;
     scale: 1.1;
+}
+
+footer {
+    margin-top: 120px;
+    padding: 50px;
+    background-color: #001830;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer img {
+    margin-left: 50px;
+    padding: 30px;
+}
+
+.footer-social-content {
+    margin-right: 70px;
+    text-align: center;
+    color: white;
+    font-size: large;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons {
+    background-color: white;
+    color: #001830;
+    border-radius: 50%;
+    padding: 5px;
+    scale: 0.8
+}
+
+.copyright {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    color: white;
+    font-size: small;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+.line {
+    background-color: white;
+    height: 1px;
+    width: 85%;
+    opacity: 20%;
 }
